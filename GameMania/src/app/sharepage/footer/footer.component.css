@@ -1,0 +1,11 @@
+/* Estilização dos icones do rodpé */
+a{
+    padding: 0px 18px;
+    color: black;
+    font-size: 17px;
+}
+
+a:hover{
+    color: rgb(61, 59, 59);
+    transition: 0.4s;
+}

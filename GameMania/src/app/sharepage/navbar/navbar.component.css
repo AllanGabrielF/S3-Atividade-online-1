@@ -1,0 +1,70 @@
+/* Importe de FONTS para ser utilizadas no Menu */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Oswald:wght@300&display=swap');
+
+
+
+body{
+    min-width: 372px;
+}
+
+
+/* Estilização da LOGO */
+a.navbar-brand{
+    padding: 8px 43px;
+    font-size: 28px;
+    font-family: 'Bangers';
+}
+
+
+/* Font e tamanho dos links no Menu */
+div#navbarNav.collapse.navbar-collapse{
+    font-family: 'Oswald';
+    font-size: 18px;
+}
+
+
+/* Estilização dos links no Menu */
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: bold;
+    color: rgb(226, 219, 219);
+    padding: 7px 18px;   
+}
+
+.navbar-dark .navbar-nav .nav-link.active-link{
+    font-weight: bold;
+    color: #fff;
+}
+
+ul.navbar-nav.ms-auto{
+    padding: 0px 30px;
+    text-decoration: underline;
+}
+/*----------------------------------*/
+
+
+/* Estilização dos icones no Menu  */
+i.bi.bi-suit-heart-fill{
+    font-size: 18px;
+    position: relative;
+    top: 8px;
+    padding: 1px 17px;
+    color: rgb(226, 219, 219);
+}
+
+i.bi.bi-suit-heart-fill:hover{
+    color: #fff;
+    transition: 0.6s;
+}
+
+i.bi.bi-cart3{
+    position: relative;
+    top: 8px;
+    font-size: 18px;
+    padding: 1px 17px;
+    color: rgb(226, 219, 219);
+}
+
+i.bi.bi-cart3:hover{
+    color: #fff;
+    transition: 0.6s;
+}

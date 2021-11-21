@@ -1,0 +1,36 @@
+/* Limitação de linhas na descrição dos produtos */
+p.truncate-3l{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+
+
+
+
+/* Distanciamento da area de navegação */
+
+ul.pagination.pagination-sm.my-0{
+    padding: 0px 20px;
+}
+
+
+
+
+
+
+/* icone no produto */
+a.text-danger{
+    position: absolute;
+    right: 0;
+    padding: 2px 8px;
+   font-size: 25px;
+}
+
